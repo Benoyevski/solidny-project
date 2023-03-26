@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable i18next/no-literal-string */
 import React, { useCallback, useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
@@ -28,10 +29,7 @@ export const Navbar = ({ className }: NavbarProps) => {
                 {t('Войти')}
             </Button>
             <Modal isOpen={isAuthModal} onClose={onToggleModal}>
-                Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Accusantium deserunt
-                necessitatibus animi quia odit sequi
-                itaque ut nesciunt facilis molestias!
+                {t('Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deserunt necessitatibus animi quia odit sequi itaque ut nesciunt facilis molestias!')}
             </Modal>
         </div>
     );
