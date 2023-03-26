@@ -1,4 +1,5 @@
-import './styles/index.scss';
+/* eslint-disable i18next/no-literal-string */
+
 import { Navbar } from 'widgets/Navbar';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Sidebar } from 'widgets/Sidebar';
