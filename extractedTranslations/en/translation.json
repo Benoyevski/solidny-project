@@ -1,19 +1,21 @@
 {
-  "": "",
-  "           Lorem ipsum dolor sit amet consectetur adipisicing elit": {
-    " Accusantium deserunt necessitatibus animi quia odit sequi itaque ut nesciunt facilis molestias!": ""
-  },
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit": {
-    " Accusantium deserunt necessitatibus animi quia odit sequi itaque ut nesciunt facilis molestias!": ""
-  },
-  "throw error": "throw error",
-  "Войти": "Войти",
-  "Главная": "Main",
-  "Главная страница": "Main page",
-  "О сайте": "About",
-  "Обновить страницу": "Refresh the page",
-  "Переключить": "Toggle",
-  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
-  "Страница не найдена": "Page not found",
-  "Язык": "Language"
+    "": "",
+    "           Lorem ipsum dolor sit amet consectetur adipisicing elit": {
+        " Accusantium deserunt necessitatibus animi quia odit sequi itaque ut nesciunt facilis molestias!": ""
+    },
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit": {
+        " Accusantium deserunt necessitatibus animi quia odit sequi itaque ut nesciunt facilis molestias!": ""
+    },
+    "уменьшить": "decrement",
+    "увеличить": "increment",
+    "throw error": "throw error",
+    "Войти": "Войти",
+    "Главная": "Main",
+    "Главная страница": "Main page",
+    "О сайте": "About",
+    "Обновить страницу": "Refresh the page",
+    "Переключить": "Toggle",
+    "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+    "Страница не найдена": "Page not found",
+    "Язык": "Language"
 }

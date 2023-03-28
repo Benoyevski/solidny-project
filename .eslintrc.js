@@ -45,6 +45,7 @@ module.exports = {
         'linebreak-style': 0,
         'jsx-a11y/click-events-have-key-events': 'warn',
         'jsx-a11y/no-static-element-interactions': 'off',
+        'no-param-reassign': 'off',
         'i18next/no-literal-string': ['error', {
             markupOnly: true,
             ignoreAttribute: ['data-testid', 'to'],
