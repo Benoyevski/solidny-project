@@ -4,7 +4,6 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import 'app/styles/index.scss';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { Button, ButtonSize, ButtonTheme } from './Button';
 import { Text, TextTheme } from './Text';
 
 export default {
@@ -30,13 +29,13 @@ Error.args = {
     theme: TextTheme.ERROR,
 };
 
-export const onlyTitle = Template.bind({});
-onlyTitle.args = {
+export const OnlyTitle = Template.bind({});
+OnlyTitle.args = {
     title: 'Title lorem ipsum',
 };
 
-export const onlyText = Template.bind({});
-onlyText.args = {
+export const OnlyText = Template.bind({});
+OnlyText.args = {
     text: 'Text just text text just texttext just text',
 };
 
@@ -47,14 +46,14 @@ PrimaryDark.args = {
 };
 PrimaryDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-export const onlyTitleDark = Template.bind({});
-onlyTitleDark.args = {
+export const OnlyTitleDark = Template.bind({});
+OnlyTitleDark.args = {
     title: 'Title lorem ipsum',
 };
-onlyTitleDark.decorators = [ThemeDecorator(Theme.DARK)];
+OnlyTitleDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-export const onlyTextDark = Template.bind({});
-onlyTextDark.args = {
+export const OnlyTextDark = Template.bind({});
+OnlyTextDark.args = {
     text: 'Text just text text just texttext just text',
 };
-onlyTextDark.decorators = [ThemeDecorator(Theme.DARK)];
+OnlyTextDark.decorators = [ThemeDecorator(Theme.DARK)];

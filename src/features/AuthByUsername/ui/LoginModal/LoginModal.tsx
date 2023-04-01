@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Modal } from 'shared/ui/Modal/Modal';
 import cls from './LoginModal.module.scss';
