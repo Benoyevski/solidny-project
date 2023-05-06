@@ -7,7 +7,6 @@ export type ReducersList = {
     [name in StateSchemaKey]?: Reducer;
 }
 
-
 interface DynamicModuleLoaderProps {
     reducers: ReducersList;
     removeAfterUnmount?: boolean;
@@ -29,7 +28,7 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
 
         return () => {
             if (removeAfterUnmount) {
-                Object.entries(reducers).forEach(([name, reducer]) => {
+                Object.entries(reducers).forEach(([name]) => {
                     store.reducerManager.remove(name as StateSchemaKey);
                     dispatch({ type: `@DESTROY ${name} reducer` });
                 });
@@ -39,9 +38,6 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
     }, []);
 
     return (
-        // eslint-disable-next-line react/jsx-no-useless-fragment
-        <>
-            {children}
-        </>
+        { children }
     );
 };

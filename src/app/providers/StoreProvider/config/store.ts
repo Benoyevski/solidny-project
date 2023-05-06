@@ -1,5 +1,5 @@
 import {
-    configureStore, getDefaultMiddleware, ReducersMapObject,
+    configureStore, ReducersMapObject,
 } from '@reduxjs/toolkit';
 import { CounterReducer } from 'entities/Counter';
 import { userReducer } from 'entities/User';
@@ -38,6 +38,7 @@ export function createReduxStore(
         }),
     });
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     store.reducerManager = reducerManager;
 
