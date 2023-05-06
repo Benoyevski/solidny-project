@@ -47,6 +47,7 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 'off',
         'no-param-reassign': 'off',
         '@typescript-eslint/ban-ts-comment': 'warn',
+        'no-undef': 'off',
         'i18next/no-literal-string': ['error', {
             markupOnly: true,
             ignoreAttribute: ['data-testid', 'to'],
@@ -58,6 +59,7 @@ module.exports = {
     },
     globals: {
         __IS_DEV__: true,
+        __API__: true,
     },
     overrides: [{
         files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
