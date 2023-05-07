@@ -47,20 +47,16 @@ const LoginForm = memo(({ className, onSuccess }: LoginFormProps) => {
         [dispatch],
     );
 
-    const onLoginClick = useCallback(
-        async () => {
-            const result = await dispatch(loginByUsername({ username, password }));
-            if (result.meta.requestStatus === 'rejected') {
-                onSuccess();
-            }
-        },
-        [onSuccess, dispatch, username, password],
-    );
+    const onLoginClick = useCallback(async () => {
+        const result = await dispatch(loginByUsername({ username, password }));
+        if (result.meta.requestStatus === 'fulfilled') {
+            onSuccess();
+        }
+    }, [onSuccess, dispatch, password, username]);
 
     return (
         <DynamicModuleLoader
             removeAfterUnmount
-            // eslint-disable-next-line i18next/no-literal-string
             reducers={initialReducers}
         >
             <div className={classNames(cls.LoginForm, {}, [className])}>

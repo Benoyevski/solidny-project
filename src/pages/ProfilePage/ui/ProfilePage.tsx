@@ -9,8 +9,9 @@ const reducers: ReducersList = {
 };
 
 interface ProfilePageProps {
-className?: string
+    className?: string;
 }
+
 const ProfilePage = ({ className }: ProfilePageProps) => {
     const dispatch = useAppDispatch();
 
