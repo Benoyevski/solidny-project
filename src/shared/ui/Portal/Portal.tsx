@@ -5,6 +5,7 @@ interface PortalProps {
 children?: ReactNode;
 element?: HTMLElement
 }
+
 export const Portal = (props: PortalProps) => {
     const {
         children,
