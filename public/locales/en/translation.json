@@ -12,5 +12,9 @@
     "Обновить страницу": "Refresh the page",
     "Переключить": "Toggle",
     "Произошла непредвиденная ошибка": "An unexpected error has occurred",
-    "Короткий язык": "En"
+    "Короткий язык": "En",
+    "Профиль": "Profile",
+    "Выйти": "Logout",
+    "Укажите валюту": "Specify currency",
+    "Укажите страну": "Specify country"
 }
