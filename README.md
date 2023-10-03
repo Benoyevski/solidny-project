@@ -1,11 +1,13 @@
 # solidny-project
 
-Проект находится на стадии разработки.
+_Проект находится в разработке._
 
-Запуск на локалке:
+**Запуск на локалке**
 
-git clone https://github.com/sarda10v/production-project
+```shell
+git clone https://github.com/Benoyevski/solidny-project
 
 npm install
 
-npm start
+npm start:dev
+```
