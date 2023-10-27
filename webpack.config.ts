@@ -28,5 +28,3 @@ export default (env: BuildEnv) => {
 
     return config;
 };
-
-// 50, 40.00
