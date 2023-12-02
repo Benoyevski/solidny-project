@@ -25,7 +25,7 @@ import { getArticleCommentsIsLoading } from '../../model/selectors/comments';
 import {
     articleDetailsCommentsReducer,
     getArticleComments,
-} from '../../model/slices/ArticleDetailsCommentsSlice';
+} from '../../model/slices/articleDetailsCommentsSlice';
 import cls from './ArticleDetailsPage.module.scss';
 
 interface ArticleDetailsPageProps {
