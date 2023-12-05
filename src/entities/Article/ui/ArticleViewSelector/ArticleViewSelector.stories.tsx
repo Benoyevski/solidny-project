@@ -1,8 +1,9 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ArticleView } from 'entities/Article/model/types/article';
 import { ArticleViewSelector } from './ArticleViewSelector';
 
 export default {
-    title: 'shared/ArticleViewSelector',
+    title: 'entities/ArticleViewSelector',
     component: ArticleViewSelector,
     argTypes: {
         backgroundColor: { control: 'color' },
@@ -11,7 +12,12 @@ export default {
 
 const Template: ComponentStory<typeof ArticleViewSelector> = (args) => <ArticleViewSelector {...args} />;
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const List = Template.bind({});
+List.args = {
+    view: ArticleView.SMALL,
+};
 
+export const Tiled = Template.bind({});
+Tiled.args = {
+    view: ArticleView.BIG,
 };
