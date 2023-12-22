@@ -4,7 +4,6 @@ import {
 import { CounterReducer } from 'entities/Counter';
 import { userReducer } from 'entities/User';
 import { $api } from 'shared/api/api';
-import { NavigateOptions, To } from 'react-router-dom';
 import { Reducer, CombinedState } from 'redux';
 import { uiReducer } from 'features/UI';
 import { StateSchema, ThunkExtraArg } from './StateSchema';

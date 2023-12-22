@@ -3,7 +3,7 @@ import { ArticleView } from 'entities/Article/model/types/article';
 import { ArticleViewSelector } from './ArticleViewSelector';
 
 export default {
-    title: 'entities/ArticleViewSelector',
+    title: 'entities/Article/ArticleViewSelector',
     component: ArticleViewSelector,
     argTypes: {
         backgroundColor: { control: 'color' },
