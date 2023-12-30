@@ -1,5 +1,4 @@
 import { getArticleDetailsData } from 'entities/Article';
-import { getUserAuthData } from 'entities/User';
 import { getCanEditArticle } from 'pages/ArticleDetailsPage/model/selectors/article';
 import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
