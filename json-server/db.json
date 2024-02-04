@@ -601,6 +601,12 @@
       "userId": "2",
       "text": "Тестовый коммент в Ruby",
       "id": "DRSE_Bn"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "Еще один в Руби",
+      "id": "qONHNl5"
     }
   ],
   "users": [

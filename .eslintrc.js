@@ -18,7 +18,12 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    plugins: ['react', '@typescript-eslint', 'i18next', 'react-hooks'],
+    plugins: ['react',
+        '@typescript-eslint',
+        'i18next',
+        'react-hooks',
+        'ismail-plugin',
+    ],
     rules: {
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
@@ -51,13 +56,14 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'i18next/no-literal-string': ['error', {
             markupOnly: true,
-            ignoreAttribute: ['data-testid', 'to', 'target'],
+            ignoreAttribute: ['data-testid', 'to', 'target', 'justify', 'align', 'direction', 'gap'],
         }],
         'max-len': ['error', {
             ignoreComments: true,
             code: 125,
         }],
         'arrow-body-style': 'off',
+        'ismail-plugin/fsd-path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,
