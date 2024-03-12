@@ -44,6 +44,7 @@ export function Dropdown(props: DropdownProps) {
                     const content = ({ active }: {active: boolean}) => (
 
                         <button
+                            key={item.href}
                             disabled={item.disabled}
                             type="button"
                             onClick={item.onClick}
